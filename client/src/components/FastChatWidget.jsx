@@ -213,7 +213,14 @@ export default function FastChatWidget() {
                         <div className="text-sm text-blue-900 dark:text-blue-200 mt-1">8637088429</div>
                       </div>
                       <div className="flex gap-2">
-                        <a href="tel:8637088429" className="px-3 py-1 rounded-lg bg-blue-600 text-white text-sm hover:bg-blue-700 transition">Call</a>
+                        <a
+                          href="https://wa.me/918637088429?text=Hi%20Sumit%2C%20I%27d%20like%20to%20discuss%20a%20transport%20requirement."
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3 py-1 rounded-lg bg-blue-600 text-white text-sm hover:bg-blue-700 transition"
+                        >
+                          Call
+                        </a>
                         <button onClick={() => { try { navigator.clipboard && navigator.clipboard.writeText('8637088429'); } catch {} setMsgs(m=>[...m,{from:'bot', text: rephraseForProfessionalTone('Owner number copied.')}]); if (toastTimer.current) clearTimeout(toastTimer.current); setToastMsg('Owner number copied'); toastTimer.current = setTimeout(()=>setToastMsg(''), 1500); }} className="px-3 py-1 rounded-lg bg-blue-100 text-blue-900 text-sm hover:bg-blue-200 transition">Copy</button>
                       </div>
                     </div>
@@ -226,7 +233,14 @@ export default function FastChatWidget() {
                         <div className="text-sm text-violet-900 dark:text-violet-200 mt-1">987987985656</div>
                       </div>
                       <div className="flex gap-2">
-                        <a href="tel:987987985656" className="px-3 py-1 rounded-lg bg-violet-600 text-white text-sm hover:bg-violet-700 transition">Call</a>
+                        <a
+                          href="https://wa.me/91987987985656?text=Hi%20Shalwin%2C%20I%20need%20assistance%20with%20a%20booking."
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="px-3 py-1 rounded-lg bg-violet-600 text-white text-sm hover:bg-violet-700 transition"
+                        >
+                          Call
+                        </a>
                         <button onClick={() => { try { navigator.clipboard && navigator.clipboard.writeText('987987985656'); } catch {} setMsgs(m=>[...m,{from:'bot', text: rephraseForProfessionalTone('Manager number copied.')}]); if (toastTimer.current) clearTimeout(toastTimer.current); setToastMsg('Manager number copied'); toastTimer.current = setTimeout(()=>setToastMsg(''), 1500); }} className="px-3 py-1 rounded-lg bg-violet-100 text-violet-900 text-sm hover:bg-violet-200 transition">Copy</button>
                       </div>
                     </div>
